@@ -2,24 +2,20 @@ import React from "react";
 import {Form} from "react-bootstrap";
 import classNames from "classnames";
 
-import Search from './Search'
+
+import Search from './Search';
+import { filterDescription } from '../Filter';
+import Chatbot from "./ChatBot";
+
+import ActionProvider from './Chatbot/ActionProvider';
+import MessageParser from './Chatbot/MessageParser';
+import config from './Chatbot/config';
 
 import "./List.style.scss";
 
 function List({ items, currentView, onToggleCurrentView }) {
   const isDetailedView = currentView === "grid";
   const [inHover, setHover] = React.useState(false);
-
-  //filtering data using query (description keywords), query: an input from user in the search bar
-  const filterDescription = (docs, query) => {
-    if (!query) {
-        return docs;
-    }
-    return docs.filter((doc) => {
-      const description = doc.description.toString().toLowerCase();
-      return description.includes(query.toLowerCase());
-  });
-};
 
   const { search } = window.location;
   const query = new URLSearchParams(search).get('d-search');
@@ -41,7 +37,9 @@ function List({ items, currentView, onToggleCurrentView }) {
           label="Show details"
         />
         </div>
-        
+        <div className="container mt-5">
+           <Chatbot />
+        </div>
       </div>
 
       <div className={classNames("list", { "list-grid": isDetailedView })} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
