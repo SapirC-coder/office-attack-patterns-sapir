@@ -1,4 +1,5 @@
 import React from 'react';
+
 import FetchData from '../FetchData';
 import List from "./List";
 
@@ -29,7 +30,7 @@ function AttackPatterns() {
             />
         </div>
         );
-}
+    }
 }
 
 export default AttackPatterns;

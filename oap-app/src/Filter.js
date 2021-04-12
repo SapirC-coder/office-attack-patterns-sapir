@@ -1,3 +1,4 @@
+// Filter functions on database
 
 /* For Search Bar */
 //filtering data using query (description keywords), query: an input from user in the search bar
@@ -12,18 +13,6 @@ export const filterDescription = (docs, query) => {
 };
 
 /* For ChatBot */
-
-// helper function which returns the value the user ment in the given field
-/*const getValueByField =(data, field) => {
-    data = data.split(' ').toLowerCase();
-    res_start = false;
-    res = '';
-    data.map((word, index) => { 
-        if(res_start) res += word + ' ';
-        else if (word == field) res_start = true;
-    })
-    return res.toLowerCase();
-}*/
 
 // helper function getting string of names of the given docs
 const get_names = (docs) => {

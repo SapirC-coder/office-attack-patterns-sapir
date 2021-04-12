@@ -1,3 +1,4 @@
+// Component of a search bar
 const SearchBar = ({ searchQuery, setSearchQuery }) => {
     return(
     <form action="/" method="get">
