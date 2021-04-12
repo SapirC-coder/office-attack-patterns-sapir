@@ -1,11 +1,11 @@
 import React from "react";
 import {Form} from "react-bootstrap";
 import classNames from "classnames";
-
+import Chatbot from 'react-chatbot-kit';
 
 import Search from './Search';
 import { filterDescription } from '../Filter';
-import Chatbot from "./ChatBot";
+//import Chatbot from "./ChatBot";
 
 import ActionProvider from './Chatbot/ActionProvider';
 import MessageParser from './Chatbot/MessageParser';
@@ -38,7 +38,7 @@ function List({ items, currentView, onToggleCurrentView }) {
         />
         </div>
         <div className="container mt-5">
-           <Chatbot />
+          <Chatbot config={config} actionProvider={ActionProvider} messageParser={MessageParser} />
         </div>
       </div>
 
