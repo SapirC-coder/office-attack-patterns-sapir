@@ -1,23 +1,23 @@
 version: '3.4'
 
 services:
-  oapapp:
-    image: oapapp
-    build:
-      context: .
-      dockerfile: ./Dockerfile
+  backend:
+    image: backend
+    build: ./backend
     environment:
       NODE_ENV: production
     ports:
       - 3001:3001
-    volumes:
-      - .:/usr/src/app
+  
+  frontend:
+    image: frontend
+    build: ./frontend
+    ports:
+      - 3000:3000
+  
   mongodb:
     image: mongo:latest
     ports:
       - 27017:27017
     volumes:
-      - data:/data/db
-
-volumes:
-  data:
+      - ./backend/database/data:/data/db
