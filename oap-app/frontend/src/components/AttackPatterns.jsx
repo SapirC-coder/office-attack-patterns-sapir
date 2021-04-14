@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useCallback, useEffect} from 'react';
 
 import FetchData from '../FetchData';
 import List from "./List";
@@ -7,17 +7,26 @@ import List from "./List";
  * Fetching data from server and showing it using List component
  *  
  */
-function AttackPatterns() {
-  const [currentView, setCurrentView] = React.useState("list");
+const AttackPatterns = () => {
+  const [currentView, setCurrentView] = useState("list");
 
-  const handleToggleCurrentView = React.useCallback(() => {
+  const handleToggleCurrentView = useCallback(() => {
     setCurrentView(view => (view === "list" ? "grid" : "list"));
   }, [setCurrentView]);
 
-  const [data, isLoaded, error] = FetchData(); 
+  const [data, setData] = React.useState([]);
+  const [isLoaded, setIsLoaded] = React.useState(false);
+  const [error, setError] = React.useState(null);
 
+  useEffect(()=> {
+    const[data, isLoaded, error] = FetchData();
+    setData(data);
+    setIsLoaded(isLoaded);
+    setError(error);
+  }, []);
+  
   if (error) {
-    return <div>Error: {error.message}</div>;
+    return <div>Error: {error}</div>;
   } else if (!isLoaded) {
     return <div>Loading...</div>;
   } else {

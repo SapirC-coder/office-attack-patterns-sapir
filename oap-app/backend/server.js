@@ -9,7 +9,7 @@ const PORT = 3001;
 
 app.use(express.json());
 
-const data_handler = require('./database/data-handler');
+const data_handler = require('./data-handler');
 
 app.use(cors());
 
