@@ -13,28 +13,27 @@ Make sure the folder containts files and not a directory (use extract here)
 ## Or
 
 ### Install mongodb
-[click here for download](https://www.mongodb.com/try/download/community)
-install community server
+[install community server](https://www.mongodb.com/try/download/community)
 
 #### Open a service of mongo:
 
-##### In linux run: 'systemctl start mongodb'
-##### In windows run: 'net start MongoDB'
-###### change the word 'start' to 'stop' incase you want to stop the service
+##### In linux run: `systemctl start mongodb`
+##### In windows run: `net start MongoDB`
+###### change the word `start` to `stop` incase you want to stop the service
 
 
-### In `backend` and 'frontend'
+### In `backend` and `frontend`
 
 #### Run: `npm install`
 Only on the first run
 
 
-### In 'backend'
+### In `backend`
 
 #### Run: `node server.js`
 
 
-### In 'frontend'
+### In `frontend`
 
 #### Run: `npm start`
 
