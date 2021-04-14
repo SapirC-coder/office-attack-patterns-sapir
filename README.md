@@ -8,6 +8,7 @@ Make sure the folder containts files and not a directory (use extract here)
 
 ### Install docker (Recommended)
 [click here for download](https://www.docker.com/get-started)
+### Run in `oap-app` `docker-compose up` to start running, and change the word `start` to `down` incase you want to close the servers of the app
 
 
 ## Or
