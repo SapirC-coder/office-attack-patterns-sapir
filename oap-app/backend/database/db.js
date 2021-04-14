@@ -4,10 +4,9 @@ const data_change = require('../database/data-change');
 
 const default_dir_path = __dirname + '/attack-patterns/';
 
-const server_ip = '127.0.0.1'; 
-const database_name = 'attack-patterns-db';
+const server_ip = 'db:27017'; 
 
-const mongoDbUrl = `mongodb://${server_ip}/${database_name}`;
+const mongoDbUrl = `mongodb://${server_ip}`;
 
 let _db;
 
