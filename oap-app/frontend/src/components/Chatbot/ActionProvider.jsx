@@ -1,53 +1,78 @@
+import { useState } from 'react';
+import $ from 'jquery';
 import { phase_name_get_names, mitre_platforms_get_names, get_names_by_part } from '../../Filter'
-import FetchData from '../../FetchData'
 
-const ActionProvider = (createChatBotMessage, setStateFunc, createClientMessage) => {
+const server_ip = 'http://localhost:3001/';
 
-    //const [data, isLoaded, error]  = FetchData();
-
-    function updateChatbotState(message){
-      //preserving the previous state
-         setStateFunc(prevState => ({
-            ...prevState, messages: [...prevState.messages, message]
-          }))
+/**
+ * This function is fetching data from the server and returning a meassage as a respone of the request from the user
+ * @param {string} url_addition the continuation of the url to fetch from backend
+ * @return {string} the result for the user
+ */
+function FetchFromVt(url_addition){
+  const [data, setData] = useState([]);
+  $.ajax({url: server_ip + url_addition, method: 'GET',
+    success: function(result){
+      setData(result);
     }
+  })
+  return data.toString();
+}
 
-    function handelVirusTotalOptions(){
-      updateChatbotState(createChatBotMessage(""))
+/**
+ * This function is fetching data from the server (of the database)
+ */
+ function FetchDB(){
+  const [data, setData] = useState([]);
+  $.ajax({url: server_ip, method: 'GET',
+    success: function(result){
+      setData(result);
     }
+  })
+  return JSON.parse(data);
+}
 
-    function handelDatabaseOptions(){
-      const message = createChatBotMessage("You can get names of attack patterns that include given mitre platform or a phase name (or a part of it), you can also enter a part of name and get all the matching attacks, what's your choice? ")
-      updateChatbotState(message)
-    }
+class ActionProvider {
+  constructor(createChatBotMessage, setStateFunc, createClientMessage) {
+    this.createChatBotMessage = createChatBotMessage;
+    this.setState = setStateFunc;
+    this.createClientMessage = createClientMessage;
+    this.data = FetchDB();
+  }
 
-    function askForValues() {
-      updateChatbotState(createChatBotMessage("Please enter values: "))
-    }
+  updateChatbotState(message) {
+    //preserving the previous state
+       this.setState(prevState => ({
+          ...prevState, messages: [...prevState.messages, message]
+        }))
+  }
 
-    function handleAPartOfName(value) {   
-      updateChatbotState(createChatBotMessage("Matching names: " + get_names_by_part(value)))
-    }
+  handelVirusTotalOptions() {
+    this.updateChatbotState(this.createChatBotMessage("You can check if a url, domain, or an ip is safe with virustotal, which would you like to check about? "))
+  }
 
-    function handleAMitrePlatform(value) {
-      updateChatbotState(createChatBotMessage("Names of attack patterns with matching given mitre platform: " + mitre_platforms_get_names(value))) 
-    }
+  handelDatabaseOptions() {
+    const message = this.createChatBotMessage("You can get names of attack patterns that include given mitre platform or a phase name (or a part of it), you can also enter a part of name and get all the matching attacks, what's your choice? ")
+    this.updateChatbotState(message)
+  }
 
-    function handelAPhaseName(value) {
-      updateChatbotState(createChatBotMessage("Matching names: " + phase_name_get_names(value)))
-    }
+  askForValues() {
+    this.updateChatbotState(this.createChatBotMessage("Please enter values: "))
+  }
 
-    return(
-      [handelDatabaseOptions,
-      handleAPartOfName,
-      handelAPhaseName,
-      handleAMitrePlatform,
-      askForValues,
-      handelVirusTotalOptions]
-    );
+  handleAPartOfName(value) {   
+    this.updateChatbotState(this.createChatBotMessage("Matching names: " + get_names_by_part(value)))
+  }
+
+  handleAMitrePlatform(value) {
+    this.updateChatbotState(this.createChatBotMessage("Names of attack patterns with matching given mitre platform: " + mitre_platforms_get_names(value))) 
+  }
+
+  handelAPhaseName(value) {
+    this.updateChatbotState(this.createChatBotMessage("Matching names: " + phase_name_get_names(value)))
+  }
 
 }
 
 export default ActionProvider;
-
   

@@ -1,7 +1,7 @@
 // Filter functions on database
 
 /* For Search Bar */
-//filtering data using query (description keywords), query: an input from user in the search bar
+// filtering data using query (description keywords), query: an input from user in the search bar
 export const filterDescription = (docs, query) => {
     if (!query) {
         return docs;
