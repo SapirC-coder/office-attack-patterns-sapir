@@ -21,7 +21,7 @@ class ActionProvider {
   * @param {string} url_addition the continuation of the url to fetch from backend
   */
   fetchVT(url_addition) {
-    $.ajax({url: server_ip + url_addition, method: 'GET',
+    $.ajax({url: server_ip + url_addition, method: 'GET', async: false,
       success: function(result) {
         vt_data = result;
       }
@@ -77,15 +77,7 @@ class ActionProvider {
   }
 
   sendVTResults() {
-    //while($.isEmptyObject(vt_data)){  }
-    const message = this.createChatBotMessage("results by virus total: harmless: " + Object.keys(vt_data).length)
-    //const message = this.createChatBotMessage("results by virus total: harmless: " + vt_data.harmless + ", malicious: " + vt_data.malicious + ", suspicious: " + vt_data.suspicious + ", undetected: " + vt_data.undetected)
-    vt_data = {};
-    this.updateChatbotState(message)
-  }
-
-  pleaseWaitForVT() {
-    const message = this.createChatBotMessage("It would take some time please wait..");
+    const message = this.createChatBotMessage("results by virus total: harmless: " + vt_data.harmless + ", malicious: " + vt_data.malicious + ", suspicious: " + vt_data.suspicious + ", undetected: " + vt_data.undetected)
     this.updateChatbotState(message)
   }
 

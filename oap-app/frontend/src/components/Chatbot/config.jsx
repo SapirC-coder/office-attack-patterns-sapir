@@ -16,7 +16,9 @@ const config = {
     ),
     createChatBotMessage(
       "Would you like to see the options of searching in VirusTotal or in our Database?"
-    )
+    ),
+    createChatBotMessage(
+      "Please notice that virustotal results will take some time to come, be patient")
   ],
 };
 
