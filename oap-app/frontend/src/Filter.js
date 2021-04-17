@@ -17,8 +17,8 @@ export const filterDescription = (docs, query) => {
 // helper function getting string of names of the given docs
 const get_names = (docs) => {
     var res = [];
-    docs.map(doc => res += doc.name)
-    return res.join(' ');
+    docs.map(doc => res.push(doc.name))
+    return res.join(', ');
 }
 
 // looks for phase names that has the given phase and returning all names

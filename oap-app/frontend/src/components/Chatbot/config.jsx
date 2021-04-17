@@ -15,7 +15,7 @@ const config = {
       "Hey! I'm here to help you to search about some more data!"
     ),
     createChatBotMessage(
-      "Would you like to search in VirusTotal or in our Database?"
+      "Would you like to see the options of searching in VirusTotal or in our Database?"
     )
   ],
 };

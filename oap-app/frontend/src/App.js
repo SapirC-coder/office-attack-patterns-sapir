@@ -3,7 +3,7 @@ import $ from 'jquery';
 
 import List from './components/AttackPatterns'
 
-const server_ip = 'http://localhost:3001';
+const server_ip = 'http://127.0.0.1:3001/';
 
 const App = () => {
   const [currentView, setCurrentView] = useState("list");
