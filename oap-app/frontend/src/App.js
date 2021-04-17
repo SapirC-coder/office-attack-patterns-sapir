@@ -1,22 +1,49 @@
-import React from "react";
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
+import React, {useState, useCallback, useEffect} from "react";
+import $ from 'jquery';
 
-import AttackPatterns from './components/AttackPatterns'
+import List from './components/AttackPatterns'
 
-class App extends React.Component {
-  render() {
-    return(
-      <BrowserRouter>
-      <Switch>
-        <Redirect from="/" to="/attack-patterns" exact />
-        <Route
-          path="/attack-patterns"
-          render={props => (
-            <AttackPatterns/>
-          )}
+const server_ip = 'http://127.0.0.1:3001/';
+
+const App = () => {
+  const [currentView, setCurrentView] = useState("list");
+
+  const handleToggleCurrentView = useCallback(() => {
+    setCurrentView(view => (view === "list" ? "grid" : "list"));
+  }, [setCurrentView]);
+
+  const [data, setData] = React.useState([]);
+  const [isLoaded, setIsLoaded] = React.useState(false);
+  const [error, setError] = React.useState(null);
+  
+  useEffect(()=> {
+    $.ajax({url: server_ip, method: 'GET',
+    success: function(result){
+      setData(result);
+      setIsLoaded(true);
+    },
+    error: function(xhr, status, error) {
+      setIsLoaded(false);
+      setError(error);
+    }
+    })
+  });
+  
+  if (error) {
+    return <div>Error: {error}</div>;
+  } 
+  else if (!isLoaded) {
+    return <div>Loading...</div>;
+  } 
+  else {
+    return (
+      <div>
+        <List
+          items={data}
+            currentView={currentView}
+            onToggleCurrentView={handleToggleCurrentView}
         />
-      </Switch>
-      </BrowserRouter>
+      </div>
     );
   }
 }
