@@ -9,7 +9,7 @@ Make sure the folder containts files and not a directory (use extract here)
 ### Install docker (Recommended)
 [click here for download](https://www.docker.com/get-started)
 ### Run in `oap-app` `docker-compose up` to start running, and change the word `start` to `down` incase you want to close the servers of the app
-
+#### change in  `backend\database\db.js` in `DB_IP`: `127.0.0.1` to `db`
 
 ## Or
 
@@ -22,19 +22,18 @@ Make sure the folder containts files and not a directory (use extract here)
 ##### In windows run: `net start MongoDB`
 ###### change the word `start` to `stop` incase you want to stop the service
 
-
-### In `backend` and `frontend`
+### In `backend`
 
 #### Run: `npm install`
 Only on the first run
-
-
-### In `backend`
 
 #### Run: `node server.js`
 
 
 ### In `frontend`
+
+#### Run: `yarn install`
+Only on the first run
 
 #### Run: `npm start`
 

@@ -1,8 +1,8 @@
 import $ from 'jquery';
 import { sha256 } from 'js-sha256';
-import { phase_name_get_names, mitre_platforms_get_names, get_names_by_part } from '../../Filter'
+import { phaseNameGetNames, mitrePlatformsGetNames, getNamesByPart } from '../../Filter'
 
-const server_ip = 'http://127.0.0.1:3001/';
+const SERVER_IP = 'http://127.0.0.1:3001/';
 
 var db_data = [];
 var vt_data = {};
@@ -18,10 +18,12 @@ class ActionProvider {
 
   /**
   * This function is fetching data from the server and returning a meassage as a respone of the request from the user
-  * @param {string} url_addition the continuation of the url to fetch from backend
+  * @param {string} urlAddition the continuation of the url to fetch from backend
   */
-  fetchVT(url_addition) {
-    $.ajax({url: server_ip + url_addition, method: 'GET', async: false,
+  fetchVT(urlAddition) {
+    $.ajax({url: SERVER_IP + urlAddition, 
+            method: 'GET', 
+            async: false,
       success: function(result) {
         vt_data = result;
       }
@@ -32,7 +34,8 @@ class ActionProvider {
   * This function is fetching data from the server (of the database)
   */
   fetchDB(){
-    $.ajax({url: server_ip, method: 'GET',
+    $.ajax({url: SERVER_IP, 
+            method: 'GET',
       success: function(result){
         db_data = result;
       }
@@ -62,17 +65,17 @@ class ActionProvider {
   }
 
   handlePartOfName(value) {   
-    const message = this.createChatBotMessage("Matching names: " + get_names_by_part(db_data, value))
+    const message = this.createChatBotMessage("Matching names: " + getNamesByPart(db_data, value))
     this.updateChatbotState(message)
   }
 
   handleMitrePlatform(value) {
-    const message = this.createChatBotMessage("Names of attack patterns with matching given mitre platform: " + mitre_platforms_get_names(db_data, value)) 
+    const message = this.createChatBotMessage("Names of attack patterns with matching given mitre platform: " + mitrePlatformsGetNames(db_data, value)) 
     this.updateChatbotState(message)
   }
 
   handlePhaseName(value) {
-    const message = this.createChatBotMessage("Matching names: " + phase_name_get_names(db_data, value))
+    const message = this.createChatBotMessage("Matching names: " + phaseNameGetNames(db_data, value))
     this.updateChatbotState(message)
   }
 

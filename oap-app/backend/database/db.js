@@ -1,12 +1,12 @@
 const mongoose = require('mongoose');
 
-const data_change = require('../database/data-change');
+const dataChange = require('../database/data-change');
 
-const default_dir_path = __dirname + '/attack-patterns/';
+const DEFAULT_DIR_PATH = __dirname + '/attack-patterns/';
 
-const server_ip = 'db:27017'; 
+const DB_IP = '127.0.0.1:27017'; 
 
-const mongoDbUrl = `mongodb://${server_ip}`;
+const mongoDbUrl = `mongodb://${DB_IP}`;
 
 let _db;
 
@@ -15,10 +15,11 @@ const initDb = callback => {
     console.log('Database is already initialized!');
     return callback(null, _db);
   }
-  mongoose.connect(mongoDbUrl, {useNewUrlParser: true, useUnifiedTopology: true})
+  mongoose.connect(mongoDbUrl, {useNewUrlParser: true, 
+                                useUnifiedTopology: true})
     .then(client => {
       _db = client;
-      data_change.init_data(default_dir_path);
+      dataChange.initData(DEFAULT_DIR_PATH);
       callback(null, _db);
     })
     .catch(err => {
