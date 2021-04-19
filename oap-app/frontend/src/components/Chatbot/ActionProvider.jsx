@@ -3,14 +3,14 @@ import { sha256 } from 'js-sha256';
 import { phaseNameGetNames, mitrePlatformsGetNames, getNamesByPart } from '../../Filter'
 
 const SERVER_IP = 'http://127.0.0.1:3001/';
-const CUCKOO_IP = 'http://127.0.0.1:8000/';
+const CUCKOO_IP = 'http://127.0.0.1:8090/';
 
 var db_data = [];
 var vt_data = {};
 
 let fileReader;
 
-HEADERS_CUCKOO = {"Authorization": "Bearer S4MPL3"};
+var HEADERS_CUCKOO = {"Authorization": "Bearer S4MPL3"};
 
 var tasks_ids = [];
 
@@ -117,7 +117,7 @@ class ActionProvider {
             headers: HEADERS_CUCKOO,
             success: function(result) {
               tasks_ids.push(result.json()['task_id']);
-              const message = this.createChatBotMessage('File has been created! would you like to submit?');
+              const message = this.createChatBotMessage('File has been submited! '+ result.json()['task_id']);
               this.updateChatbotState(message);
             }
             
@@ -126,22 +126,23 @@ class ActionProvider {
 
   cuckooCreateFile(file) {
     fileReader = new FileReader();
-    fileReader.onloadend = cuckooHandleFileRead;
+    fileReader.onloadend = this.cuckooHandleFileRead;
     fileReader.readAsText(file);
   }
 
-  cuckooSubmit() {
-    $.ajax({url: CUCKOO_IP + '/tasks/create/submit', 
-            type: 'POST',
-            data: output,
-            headers: HEADERS_CUCKOO,
-            success: function(result) {
-              tasks_ids.push(result.json()['task_id']);
-              const message = this.createChatBotMessage('File has been created! would you like to submit?');
-              this.updateChatbotState(message);
+  cuckooGetReports() {
+    var reports = [];
+    tasks_ids.forEach(id => {
+      $.ajax({url: CUCKOO_IP + '/tasks/summary/' + id, 
+            method: 'GET',
+            success: function(result){
+              reports.push(result['task_id'] +' : ' +  result['score']);
             }
-            
+      })
     })
+    tasks_ids = [];
+    const message = this.createChatBotMessage('reports: ' + reports.join(', '));
+    this.updateChatbotState(message);
   }
 }
 

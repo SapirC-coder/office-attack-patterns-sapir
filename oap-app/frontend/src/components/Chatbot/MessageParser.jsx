@@ -4,7 +4,8 @@ var checked = {
   phase_name: false,
   url: false,
   ip: false,
-  domain: false
+  domain: false,
+  cuckoo:false
 };
 
 class MessageParser {
@@ -53,6 +54,12 @@ class MessageParser {
       else if(lowerCaseMessage.includes("domain")) {
         checked.domain = true;
       }
+      else if(lowerCaseMessage.includes("submit") ||
+              lowerCaseMessage.includes("create") ||
+              lowerCaseMessage.includes("file")) {
+        checked.cuckoo = true;
+      }
+
       this.actionProvider.askForValues();
     }
     else { //checking if theres a need to send results and sending using actionProvider
@@ -79,6 +86,10 @@ class MessageParser {
       else if (checked.domain) {
         checked.domain = false;
         this.actionProvider.handleDomain(lowerCaseMessage);
+      }
+      else if(checked.cuckoo) {
+        checked.cuckoo = false;
+        this.actionProvider.cuckooCreateFile(lowerCaseMessage);
       }
     }
   }
