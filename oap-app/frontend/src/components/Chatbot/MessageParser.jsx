@@ -23,6 +23,7 @@ class MessageParser {
       this.actionProvider.handelDatabaseOptions();
     }
     else if (lowerCaseMessage.includes("chose") || 
+             lowerCaseMessage.includes("choose") || 
              lowerCaseMessage.includes("get") || 
              lowerCaseMessage.includes("choice") || 
              lowerCaseMessage.includes("want") || 

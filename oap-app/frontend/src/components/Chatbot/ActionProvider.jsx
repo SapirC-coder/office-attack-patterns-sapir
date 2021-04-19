@@ -3,9 +3,16 @@ import { sha256 } from 'js-sha256';
 import { phaseNameGetNames, mitrePlatformsGetNames, getNamesByPart } from '../../Filter'
 
 const SERVER_IP = 'http://127.0.0.1:3001/';
+const CUCKOO_IP = 'http://127.0.0.1:8000/';
 
 var db_data = [];
 var vt_data = {};
+
+let fileReader;
+
+HEADERS_CUCKOO = {"Authorization": "Bearer S4MPL3"};
+
+var tasks_ids = [];
 
 class ActionProvider {
   constructor(createChatBotMessage, setStateFunc, createClientMessage) {
@@ -97,6 +104,44 @@ class ActionProvider {
   handleDomain(value) {
     this.fetchVT('vt-domain/' + value);
     this.sendVTResults();
+  }
+
+  cuckooHandleFileRead() {
+    const content = fileReader.result;
+
+    var output = {'file' : ('file', content)};
+
+    $.ajax({url: CUCKOO_IP + '/tasks/create/file', 
+            type: 'POST',
+            data: output,
+            headers: HEADERS_CUCKOO,
+            success: function(result) {
+              tasks_ids.push(result.json()['task_id']);
+              const message = this.createChatBotMessage('File has been created! would you like to submit?');
+              this.updateChatbotState(message);
+            }
+            
+    })
+  }
+
+  cuckooCreateFile(file) {
+    fileReader = new FileReader();
+    fileReader.onloadend = cuckooHandleFileRead;
+    fileReader.readAsText(file);
+  }
+
+  cuckooSubmit() {
+    $.ajax({url: CUCKOO_IP + '/tasks/create/submit', 
+            type: 'POST',
+            data: output,
+            headers: HEADERS_CUCKOO,
+            success: function(result) {
+              tasks_ids.push(result.json()['task_id']);
+              const message = this.createChatBotMessage('File has been created! would you like to submit?');
+              this.updateChatbotState(message);
+            }
+            
+    })
   }
 }
 
