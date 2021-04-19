@@ -3,16 +3,9 @@ import { sha256 } from 'js-sha256';
 import { phaseNameGetNames, mitrePlatformsGetNames, getNamesByPart } from '../../Filter'
 
 const SERVER_IP = 'http://127.0.0.1:3001/';
-const CUCKOO_IP = 'http://127.0.0.1:8090/';
 
 var db_data = [];
 var vt_data = {};
-
-let fileReader;
-
-var HEADERS_CUCKOO = {"Authorization": "Bearer S4MPL3"};
-
-var tasks_ids = [];
 
 class ActionProvider {
   constructor(createChatBotMessage, setStateFunc, createClientMessage) {
@@ -106,44 +99,6 @@ class ActionProvider {
     this.sendVTResults();
   }
 
-  cuckooHandleFileRead() {
-    const content = fileReader.result;
-
-    var output = {'file' : ('file', content)};
-
-    $.ajax({url: CUCKOO_IP + '/tasks/create/file', 
-            type: 'POST',
-            data: output,
-            headers: HEADERS_CUCKOO,
-            success: function(result) {
-              tasks_ids.push(result.json()['task_id']);
-              const message = this.createChatBotMessage('File has been submited! '+ result.json()['task_id']);
-              this.updateChatbotState(message);
-            }
-            
-    })
-  }
-
-  cuckooCreateFile(file) {
-    fileReader = new FileReader();
-    fileReader.onloadend = this.cuckooHandleFileRead;
-    fileReader.readAsText(file);
-  }
-
-  cuckooGetReports() {
-    var reports = [];
-    tasks_ids.forEach(id => {
-      $.ajax({url: CUCKOO_IP + '/tasks/summary/' + id, 
-            method: 'GET',
-            success: function(result){
-              reports.push(result['task_id'] +' : ' +  result['score']);
-            }
-      })
-    })
-    tasks_ids = [];
-    const message = this.createChatBotMessage('reports: ' + reports.join(', '));
-    this.updateChatbotState(message);
-  }
 }
 
 export default ActionProvider;

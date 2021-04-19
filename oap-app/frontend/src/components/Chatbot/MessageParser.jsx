@@ -5,8 +5,9 @@ var checked = {
   url: false,
   ip: false,
   domain: false,
-  cuckoo:false
 };
+
+const CUCKOO_IP = 'http://127.0.0.1:8000/';
 
 class MessageParser {
   constructor(actionProvider, state) {
@@ -22,6 +23,9 @@ class MessageParser {
     }
     else if (lowerCaseMessage.includes("database")) {
       this.actionProvider.handelDatabaseOptions();
+    }
+    else if(lowerCaseMessage.includes("cuckoo")) {
+      window.location.href = CUCKOO_IP;
     }
     else if (lowerCaseMessage.includes("chose") || 
              lowerCaseMessage.includes("choose") || 
@@ -54,11 +58,6 @@ class MessageParser {
       else if(lowerCaseMessage.includes("domain")) {
         checked.domain = true;
       }
-      else if(lowerCaseMessage.includes("submit") ||
-              lowerCaseMessage.includes("create") ||
-              lowerCaseMessage.includes("file")) {
-        checked.cuckoo = true;
-      }
 
       this.actionProvider.askForValues();
     }
@@ -86,10 +85,6 @@ class MessageParser {
       else if (checked.domain) {
         checked.domain = false;
         this.actionProvider.handleDomain(lowerCaseMessage);
-      }
-      else if(checked.cuckoo) {
-        checked.cuckoo = false;
-        this.actionProvider.cuckooCreateFile(lowerCaseMessage);
       }
     }
   }
