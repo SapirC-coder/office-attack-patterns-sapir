@@ -4,25 +4,25 @@
 Make sure the folder containts files and not a directory (use extract here)
 
 ## Please notice!
-###In order to use cuckoo in the chatbot you have to do the following steps:
-####in ubuntu 20.04:
-#####Install all requirements:
-######`sudo apt install -y net-tools`
-######`sudo apt-get install uwsgi uwsgi-plugin-python nginx`
+### In order to use cuckoo in the chatbot you have to do the following steps:
+#### in ubuntu 20.04:
+##### Install all requirements:
+###### `sudo apt install -y net-tools`
+###### `sudo apt-get install uwsgi uwsgi-plugin-python nginx`
 
-####create a host only network adapter:
-#####`vboxmanage hostonlyif create`
+#### create a host only network adapter:
+##### `vboxmanage hostonlyif create`
 
-####setting the network of vb:
-#####`vboxmanage hostonlyif ipconfig vboxnet0 --ip 192.168.56.1`
+#### setting the network of vb:
+##### `vboxmanage hostonlyif ipconfig vboxnet0 --ip 192.168.56.1`
 
-####running cuckoo:
+#### running cuckoo:
 
-####in ve:
-  ######`. cuckoo/bin/activate`
-  ######`cuckoo --cwd ~/cuckoo-proj-sapir/cuckoo  {~ :all the path before the directory}`
+#### in ve:
+  ###### `. cuckoo/bin/activate`
+  ###### `cuckoo --cwd ~/cuckoo-proj-sapir/cuckoo  {~ :all the path before the directory}`
 
-  ######starting the server in a new terminal:
+  ###### starting the server in a new terminal:
   `cuckoo --cwd ~/projects/cuckoo-proj-sapir/cuckoo web {~ :all the path before the directory}`
 
 ## After that you got 2 options:
