@@ -1,0 +1,884 @@
+2021-04-16 18:57:29,859 [cuckoo] WARNING: It appears that you haven't loaded any Cuckoo Signatures. Signatures are highly recommended and improve & enrich the information extracted during an analysis. They also make up for the analysis score that you see in the Web Interface - so, pretty important!
+2021-04-16 18:57:29,859 [cuckoo] WARNING: You'll be able to fetch all the latest Cuckoo Signatures, Yara rules, and more goodies by running the following command:
+2021-04-16 18:57:29,859 [cuckoo] INFO: $ [32mcuckoo --cwd /opt/sapir/projects/cuckoo-proj-sapir/cuckoo community[0m
+2021-04-16 18:57:29,860 [cuckoo] CRITICAL: [31mCuckooCriticalError: Unable to bind ResultServer on 192.168.56.1:2042 [Errno 99] Cannot assign requested address. This usually happens when you start Cuckoo without bringing up the virtual interface associated with the ResultServer IP address. Please refer to https://cuckoo.sh/docs/faq/#troubles-problem for more information.[0m
+2021-04-16 19:00:30,348 [cuckoo] WARNING: It appears that you haven't loaded any Cuckoo Signatures. Signatures are highly recommended and improve & enrich the information extracted during an analysis. They also make up for the analysis score that you see in the Web Interface - so, pretty important!
+2021-04-16 19:00:30,348 [cuckoo] WARNING: You'll be able to fetch all the latest Cuckoo Signatures, Yara rules, and more goodies by running the following command:
+2021-04-16 19:00:30,348 [cuckoo] INFO: $ [32mcuckoo --cwd /opt/sapir/projects/cuckoo-proj-sapir/cuckoo community[0m
+2021-04-16 19:00:30,348 [cuckoo] CRITICAL: [31mCuckooCriticalError: Unable to bind ResultServer on 192.168.56.101:2042 [Errno 99] Cannot assign requested address. This usually happens when you start Cuckoo without bringing up the virtual interface associated with the ResultServer IP address. Please refer to https://cuckoo.sh/docs/faq/#troubles-problem for more information.[0m
+2021-04-16 19:01:15,916 [cuckoo] WARNING: It appears that you haven't loaded any Cuckoo Signatures. Signatures are highly recommended and improve & enrich the information extracted during an analysis. They also make up for the analysis score that you see in the Web Interface - so, pretty important!
+2021-04-16 19:01:15,916 [cuckoo] WARNING: You'll be able to fetch all the latest Cuckoo Signatures, Yara rules, and more goodies by running the following command:
+2021-04-16 19:01:15,916 [cuckoo] INFO: $ [32mcuckoo --cwd /opt/sapir/projects/cuckoo-proj-sapir/cuckoo community[0m
+2021-04-16 19:01:15,917 [cuckoo] CRITICAL: [31mCuckooCriticalError: Unable to bind ResultServer on 192.168.56.101:2042 [Errno 99] Cannot assign requested address. This usually happens when you start Cuckoo without bringing up the virtual interface associated with the ResultServer IP address. Please refer to https://cuckoo.sh/docs/faq/#troubles-problem for more information.[0m
+2021-04-16 19:19:47,647 [cuckoo] WARNING: It appears that you haven't loaded any Cuckoo Signatures. Signatures are highly recommended and improve & enrich the information extracted during an analysis. They also make up for the analysis score that you see in the Web Interface - so, pretty important!
+2021-04-16 19:19:47,648 [cuckoo] WARNING: You'll be able to fetch all the latest Cuckoo Signatures, Yara rules, and more goodies by running the following command:
+2021-04-16 19:19:47,648 [cuckoo] INFO: $ [32mcuckoo --cwd /opt/sapir/projects/cuckoo-proj-sapir/cuckoo community[0m
+2021-04-16 19:19:47,648 [cuckoo] CRITICAL: [31mCuckooCriticalError: Unable to bind ResultServer on 192.168.56.101:2042 [Errno 99] Cannot assign requested address. This usually happens when you start Cuckoo without bringing up the virtual interface associated with the ResultServer IP address. Please refer to https://cuckoo.sh/docs/faq/#troubles-problem for more information.[0m
+2021-04-16 19:20:45,474 [cuckoo] WARNING: It appears that you haven't loaded any Cuckoo Signatures. Signatures are highly recommended and improve & enrich the information extracted during an analysis. They also make up for the analysis score that you see in the Web Interface - so, pretty important!
+2021-04-16 19:20:45,475 [cuckoo] WARNING: You'll be able to fetch all the latest Cuckoo Signatures, Yara rules, and more goodies by running the following command:
+2021-04-16 19:20:45,475 [cuckoo] INFO: $ [32mcuckoo --cwd /opt/sapir/projects/cuckoo-proj-sapir/cuckoo community[0m
+2021-04-16 19:20:45,476 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-16 19:20:46,164 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-16 19:20:46,171 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-16 19:44:24,477 [cuckoo] INFO: CTRL+C detected! Stopping.. This can take a few seconds
+2021-04-18 20:23:51,277 [cuckoo] WARNING: It appears that you haven't loaded any Cuckoo Signatures. Signatures are highly recommended and improve & enrich the information extracted during an analysis. They also make up for the analysis score that you see in the Web Interface - so, pretty important!
+2021-04-18 20:23:51,286 [cuckoo] WARNING: You'll be able to fetch all the latest Cuckoo Signatures, Yara rules, and more goodies by running the following command:
+2021-04-18 20:23:51,286 [cuckoo] INFO: $ [32mcuckoo --cwd /opt/sapir/projects/cuckoo-proj-sapir/cuckoo community[0m
+2021-04-18 20:23:51,286 [cuckoo] CRITICAL: [31mCuckooCriticalError: Unable to bind ResultServer on 192.168.56.1:2042 [Errno 99] Cannot assign requested address. This usually happens when you start Cuckoo without bringing up the virtual interface associated with the ResultServer IP address. Please refer to https://cuckoo.sh/docs/faq/#troubles-problem for more information.[0m
+2021-04-18 20:24:43,643 [cuckoo] WARNING: It appears that you haven't loaded any Cuckoo Signatures. Signatures are highly recommended and improve & enrich the information extracted during an analysis. They also make up for the analysis score that you see in the Web Interface - so, pretty important!
+2021-04-18 20:24:43,643 [cuckoo] WARNING: You'll be able to fetch all the latest Cuckoo Signatures, Yara rules, and more goodies by running the following command:
+2021-04-18 20:24:43,643 [cuckoo] INFO: $ [32mcuckoo --cwd /opt/sapir/projects/cuckoo-proj-sapir/cuckoo community[0m
+2021-04-18 20:24:43,644 [cuckoo] CRITICAL: [31mCuckooCriticalError: Unable to bind ResultServer on 192.168.56.1:2042 [Errno 99] Cannot assign requested address. This usually happens when you start Cuckoo without bringing up the virtual interface associated with the ResultServer IP address. Please refer to https://cuckoo.sh/docs/faq/#troubles-problem for more information.[0m
+2021-04-18 20:26:49,432 [cuckoo] WARNING: It appears that you haven't loaded any Cuckoo Signatures. Signatures are highly recommended and improve & enrich the information extracted during an analysis. They also make up for the analysis score that you see in the Web Interface - so, pretty important!
+2021-04-18 20:26:49,432 [cuckoo] WARNING: You'll be able to fetch all the latest Cuckoo Signatures, Yara rules, and more goodies by running the following command:
+2021-04-18 20:26:49,432 [cuckoo] INFO: $ [32mcuckoo --cwd /opt/sapir/projects/cuckoo-proj-sapir/cuckoo community[0m
+2021-04-18 20:26:49,432 [cuckoo] CRITICAL: [31mCuckooCriticalError: Unable to bind ResultServer on 192.168.56.1:2042 [Errno 99] Cannot assign requested address. This usually happens when you start Cuckoo without bringing up the virtual interface associated with the ResultServer IP address. Please refer to https://cuckoo.sh/docs/faq/#troubles-problem for more information.[0m
+2021-04-18 20:49:02,309 [cuckoo] WARNING: It appears that you haven't loaded any Cuckoo Signatures. Signatures are highly recommended and improve & enrich the information extracted during an analysis. They also make up for the analysis score that you see in the Web Interface - so, pretty important!
+2021-04-18 20:49:02,309 [cuckoo] WARNING: You'll be able to fetch all the latest Cuckoo Signatures, Yara rules, and more goodies by running the following command:
+2021-04-18 20:49:02,310 [cuckoo] INFO: $ [32mcuckoo --cwd /opt/sapir/projects/cuckoo-proj-sapir/cuckoo community[0m
+2021-04-18 20:49:02,310 [cuckoo] CRITICAL: [31mCuckooCriticalError: Unable to bind ResultServer on 192.168.14.1:2042 [Errno 99] Cannot assign requested address. This usually happens when you start Cuckoo without bringing up the virtual interface associated with the ResultServer IP address. Please refer to https://cuckoo.sh/docs/faq/#troubles-problem for more information.[0m
+2021-04-18 20:57:28,515 [cuckoo] WARNING: It appears that you haven't loaded any Cuckoo Signatures. Signatures are highly recommended and improve & enrich the information extracted during an analysis. They also make up for the analysis score that you see in the Web Interface - so, pretty important!
+2021-04-18 20:57:28,515 [cuckoo] WARNING: You'll be able to fetch all the latest Cuckoo Signatures, Yara rules, and more goodies by running the following command:
+2021-04-18 20:57:28,515 [cuckoo] INFO: $ [32mcuckoo --cwd /opt/sapir/projects/cuckoo-proj-sapir/cuckoo community[0m
+2021-04-18 20:57:28,517 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-18 20:57:30,334 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-18 20:57:30,342 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-18 23:32:30,326 [cuckoo] INFO: CTRL+C detected! Stopping.. This can take a few seconds
+2021-04-18 23:32:33,740 [cuckoo] WARNING: It appears that you haven't loaded any Cuckoo Signatures. Signatures are highly recommended and improve & enrich the information extracted during an analysis. They also make up for the analysis score that you see in the Web Interface - so, pretty important!
+2021-04-18 23:32:33,740 [cuckoo] WARNING: You'll be able to fetch all the latest Cuckoo Signatures, Yara rules, and more goodies by running the following command:
+2021-04-18 23:32:33,740 [cuckoo] INFO: $ [32mcuckoo --cwd /opt/sapir/projects/cuckoo-proj-sapir/cuckoo community[0m
+2021-04-18 23:32:33,741 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-18 23:32:35,554 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-18 23:32:35,565 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-18 23:34:44,755 [cuckoo] INFO: CTRL+C detected! Stopping.. This can take a few seconds
+2021-04-18 23:36:19,743 [cuckoo] WARNING: It appears that you haven't loaded any Cuckoo Signatures. Signatures are highly recommended and improve & enrich the information extracted during an analysis. They also make up for the analysis score that you see in the Web Interface - so, pretty important!
+2021-04-18 23:36:19,743 [cuckoo] WARNING: You'll be able to fetch all the latest Cuckoo Signatures, Yara rules, and more goodies by running the following command:
+2021-04-18 23:36:19,743 [cuckoo] INFO: $ [32mcuckoo --cwd /opt/sapir/projects/cuckoo-proj-sapir/cuckoo community[0m
+2021-04-18 23:36:19,745 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-18 23:36:20,254 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-18 23:36:20,261 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-18 23:38:58,805 [cuckoo] INFO: CTRL+C detected! Stopping.. This can take a few seconds
+2021-04-18 23:45:53,601 [cuckoo] WARNING: It appears that you haven't loaded any Cuckoo Signatures. Signatures are highly recommended and improve & enrich the information extracted during an analysis. They also make up for the analysis score that you see in the Web Interface - so, pretty important!
+2021-04-18 23:45:53,601 [cuckoo] WARNING: You'll be able to fetch all the latest Cuckoo Signatures, Yara rules, and more goodies by running the following command:
+2021-04-18 23:45:53,601 [cuckoo] INFO: $ [32mcuckoo --cwd /opt/sapir/projects/cuckoo-proj-sapir/cuckoo community[0m
+2021-04-18 23:45:53,603 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-18 23:45:55,388 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-18 23:45:55,395 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-19 00:51:00,096 [cuckoo] INFO: CTRL+C detected! Stopping.. This can take a few seconds
+2021-04-19 00:56:12,160 [cuckoo] WARNING: It appears that you haven't loaded any Cuckoo Signatures. Signatures are highly recommended and improve & enrich the information extracted during an analysis. They also make up for the analysis score that you see in the Web Interface - so, pretty important!
+2021-04-19 00:56:12,161 [cuckoo] WARNING: You'll be able to fetch all the latest Cuckoo Signatures, Yara rules, and more goodies by running the following command:
+2021-04-19 00:56:12,161 [cuckoo] INFO: $ [32mcuckoo --cwd /opt/sapir/projects/cuckoo-proj-sapir/cuckoo community[0m
+2021-04-19 00:56:12,162 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-19 00:56:13,979 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-19 00:56:13,986 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-19 00:59:48,016 [cuckoo] INFO: CTRL+C detected! Stopping.. This can take a few seconds
+2021-04-19 01:09:42,867 [cuckoo] WARNING: It appears that you haven't loaded any Cuckoo Signatures. Signatures are highly recommended and improve & enrich the information extracted during an analysis. They also make up for the analysis score that you see in the Web Interface - so, pretty important!
+2021-04-19 01:09:42,868 [cuckoo] WARNING: You'll be able to fetch all the latest Cuckoo Signatures, Yara rules, and more goodies by running the following command:
+2021-04-19 01:09:42,868 [cuckoo] INFO: $ [32mcuckoo --cwd /opt/sapir/projects/cuckoo-proj-sapir/cuckoo community[0m
+2021-04-19 01:09:42,869 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-19 01:09:44,844 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-19 01:09:44,851 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-19 01:16:25,816 [cuckoo] INFO: CTRL+C detected! Stopping.. This can take a few seconds
+2021-04-19 01:16:28,333 [cuckoo] WARNING: It appears that you haven't loaded any Cuckoo Signatures. Signatures are highly recommended and improve & enrich the information extracted during an analysis. They also make up for the analysis score that you see in the Web Interface - so, pretty important!
+2021-04-19 01:16:28,333 [cuckoo] WARNING: You'll be able to fetch all the latest Cuckoo Signatures, Yara rules, and more goodies by running the following command:
+2021-04-19 01:16:28,333 [cuckoo] INFO: $ [32mcuckoo --cwd /opt/sapir/projects/cuckoo-proj-sapir/cuckoo community[0m
+2021-04-19 01:16:28,335 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-19 01:16:33,208 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-19 01:16:33,216 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-19 01:19:54,221 [cuckoo] INFO: CTRL+C detected! Stopping.. This can take a few seconds
+2021-04-19 01:19:56,759 [cuckoo] WARNING: It appears that you haven't loaded any Cuckoo Signatures. Signatures are highly recommended and improve & enrich the information extracted during an analysis. They also make up for the analysis score that you see in the Web Interface - so, pretty important!
+2021-04-19 01:19:56,759 [cuckoo] WARNING: You'll be able to fetch all the latest Cuckoo Signatures, Yara rules, and more goodies by running the following command:
+2021-04-19 01:19:56,759 [cuckoo] INFO: $ [32mcuckoo --cwd /opt/sapir/projects/cuckoo-proj-sapir/cuckoo community[0m
+2021-04-19 01:19:56,761 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-19 01:19:59,648 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-19 01:19:59,656 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-19 01:20:20,790 [cuckoo] INFO: CTRL+C detected! Stopping.. This can take a few seconds
+2021-04-19 01:20:54,148 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-19 01:20:54,886 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-19 01:20:54,895 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-19 01:22:21,486 [cuckoo.core.scheduler] INFO: Starting analysis of URL "http://google.com" (task #1, options "")
+2021-04-19 01:22:21,554 [cuckoo.core.scheduler] INFO: Task #1: acquired machine win-cuckoo (label=win-cuckoo)
+2021-04-19 01:22:21,575 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 14545 (interface=vboxnet0, host=192.168.56.101)
+2021-04-19 01:22:26,324 [cuckoo.core.guest] INFO: Starting analysis #1 on guest (id=win-cuckoo, ip=192.168.56.101)
+2021-04-19 01:22:29,360 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=win-cuckoo, ip=192.168.56.101)
+2021-04-19 01:24:46,805 [cuckoo.core.guest] INFO: win-cuckoo: analysis completed successfully
+2021-04-19 01:25:25,276 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label win-cuckoo to path /opt/sapir/projects/cuckoo-proj-sapir/cuckoo/storage/analyses/1/memory.dmp
+2021-04-19 01:25:33,674 [cuckoo.processing.behavior] WARNING: Analysis results folder does not contain any behavior log files.
+2021-04-19 01:25:35,035 [cuckoo.core.scheduler] INFO: Task #1: reports generation completed
+2021-04-19 01:25:35,040 [cuckoo.core.scheduler] INFO: Task #1: analysis procedure completed
+2021-04-19 01:34:37,092 [cuckoo] INFO: CTRL+C detected! Stopping.. This can take a few seconds
+2021-04-19 01:34:44,153 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-19 01:34:46,021 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-19 01:34:46,031 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-19 01:34:58,318 [cuckoo.core.scheduler] INFO: Starting analysis of URL "http://google.com" (task #2, options "")
+2021-04-19 01:34:58,385 [cuckoo.core.scheduler] INFO: Task #2: acquired machine win-cuckoo (label=win-cuckoo)
+2021-04-19 01:34:58,407 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 15084 (interface=vboxnet0, host=192.168.56.101)
+2021-04-19 01:35:03,011 [cuckoo.core.guest] INFO: Starting analysis #2 on guest (id=win-cuckoo, ip=192.168.56.101)
+2021-04-19 01:35:07,042 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=win-cuckoo, ip=192.168.56.101)
+2021-04-19 01:37:26,494 [cuckoo.core.guest] INFO: win-cuckoo: analysis completed successfully
+2021-04-19 01:38:06,296 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label win-cuckoo to path /opt/sapir/projects/cuckoo-proj-sapir/cuckoo/storage/analyses/2/memory.dmp
+2021-04-19 01:38:13,653 [cuckoo.processing.behavior] WARNING: Analysis results folder does not contain any behavior log files.
+2021-04-19 01:38:14,312 [cuckoo.core.scheduler] INFO: Task #2: reports generation completed
+2021-04-19 01:38:14,317 [cuckoo.core.scheduler] INFO: Task #2: analysis procedure completed
+2021-04-19 01:41:03,416 [cuckoo.core.scheduler] INFO: Starting analysis of URL "http://google.com" (task #3, options "")
+2021-04-19 01:41:03,483 [cuckoo.core.scheduler] INFO: Task #3: acquired machine win-cuckoo (label=win-cuckoo)
+2021-04-19 01:41:03,503 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 15485 (interface=vboxnet0, host=192.168.56.101)
+2021-04-19 01:41:08,728 [cuckoo.core.guest] INFO: Starting analysis #3 on guest (id=win-cuckoo, ip=192.168.56.101)
+2021-04-19 01:41:12,766 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=win-cuckoo, ip=192.168.56.101)
+2021-04-19 01:43:31,850 [cuckoo.core.guest] INFO: win-cuckoo: analysis completed successfully
+2021-04-19 01:44:11,843 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label win-cuckoo to path /opt/sapir/projects/cuckoo-proj-sapir/cuckoo/storage/analyses/3/memory.dmp
+2021-04-19 01:44:21,149 [cuckoo.processing.behavior] WARNING: Analysis results folder does not contain any behavior log files.
+2021-04-19 01:44:22,754 [cuckoo.core.scheduler] INFO: Task #3: reports generation completed
+2021-04-19 01:44:22,760 [cuckoo.core.scheduler] INFO: Task #3: analysis procedure completed
+2021-04-19 01:52:37,894 [cuckoo.core.scheduler] INFO: Starting analysis of URL "http://aladel.net" (task #4, options "procmemdump=yes,route=none")
+2021-04-19 01:52:37,952 [cuckoo.core.scheduler] INFO: Task #4: acquired machine win-cuckoo (label=win-cuckoo)
+2021-04-19 01:52:37,961 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 15897 (interface=vboxnet0, host=192.168.56.101)
+2021-04-19 01:52:43,052 [cuckoo.core.guest] INFO: Starting analysis #4 on guest (id=win-cuckoo, ip=192.168.56.101)
+2021-04-19 01:52:47,100 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=win-cuckoo, ip=192.168.56.101)
+2021-04-19 01:55:15,612 [cuckoo.core.resultserver] WARNING: Uploaded file length larger than upload_max_size, stopping upload.
+2021-04-19 01:55:17,153 [cuckoo.core.guest] INFO: win-cuckoo: analysis completed successfully
+2021-04-19 01:55:54,978 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 878 MB!)
+2021-04-19 01:55:56,377 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 654 MB!)
+2021-04-19 01:55:57,378 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 494 MB!)
+2021-04-19 01:55:58,100 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label win-cuckoo to path /opt/sapir/projects/cuckoo-proj-sapir/cuckoo/storage/analyses/4/memory.dmp
+2021-04-19 01:55:58,467 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 415 MB!)
+2021-04-19 01:55:59,469 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 415 MB!)
+2021-04-19 01:56:00,470 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 415 MB!)
+2021-04-19 01:56:01,471 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 415 MB!)
+2021-04-19 01:56:02,473 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 414 MB!)
+2021-04-19 01:56:03,476 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 414 MB!)
+2021-04-19 01:56:04,477 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 414 MB!)
+2021-04-19 01:56:05,478 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 414 MB!)
+2021-04-19 01:56:06,473 [cuckoo.processing.behavior] WARNING: Analysis results folder does not contain any behavior log files.
+2021-04-19 01:56:06,480 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 414 MB!)
+2021-04-19 01:56:07,482 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 414 MB!)
+2021-04-19 01:56:08,483 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 414 MB!)
+2021-04-19 01:56:09,554 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 414 MB!)
+2021-04-19 01:56:10,556 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 414 MB!)
+2021-04-19 01:56:11,557 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 414 MB!)
+2021-04-19 01:56:13,235 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 414 MB!)
+2021-04-19 01:56:14,237 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:14,375 [cuckoo.core.scheduler] INFO: Task #4: reports generation completed
+2021-04-19 01:56:14,380 [cuckoo.core.scheduler] INFO: Task #4: analysis procedure completed
+2021-04-19 01:56:15,238 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:16,240 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:17,241 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:18,243 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:19,245 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:20,245 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:21,246 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:22,248 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:23,249 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:24,251 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:25,252 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:26,254 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:27,255 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:28,257 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:29,258 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:30,258 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:31,261 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:32,262 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:33,264 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:34,265 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:35,267 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:36,269 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:37,270 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:38,271 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:39,272 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:40,273 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:41,275 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:42,276 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:43,277 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:44,279 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:45,281 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:46,282 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:47,284 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:48,286 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:49,286 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:50,288 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:51,290 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:52,290 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:53,292 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:54,293 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:55,295 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:56,296 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:57,297 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:58,299 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:56:59,300 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:57:00,301 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:57:01,303 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:57:02,304 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 413 MB!)
+2021-04-19 01:57:03,305 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:04,307 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:05,308 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:06,309 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:07,310 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:08,311 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:09,312 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:10,314 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:11,314 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:12,316 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:13,317 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:14,318 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:15,320 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:16,321 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:17,322 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:18,324 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:19,325 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:20,326 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:21,328 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:22,329 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:23,330 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:24,332 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:25,334 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:26,335 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:27,336 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:28,338 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:29,339 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:30,340 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:31,342 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:32,343 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:33,344 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:34,345 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:35,346 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:36,348 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:37,349 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:38,351 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:39,355 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:40,356 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:41,357 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:42,358 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:43,360 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:44,362 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:45,362 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:46,364 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:47,365 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:48,366 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:49,368 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:50,369 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:51,371 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:52,372 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:53,373 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:54,417 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:55,418 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:56,419 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:57,421 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:58,422 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:57:59,424 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:00,426 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:01,427 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:02,428 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:03,429 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:04,430 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:05,431 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:06,433 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:07,433 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:08,435 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:09,436 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:10,438 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:11,440 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:12,442 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:13,444 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:14,446 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:15,447 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:16,448 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:17,450 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:18,451 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:19,453 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:20,456 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:21,459 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:22,460 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:23,462 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:24,463 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:25,464 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:26,466 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:27,467 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:28,467 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:29,469 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:30,470 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:31,470 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:32,472 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:33,473 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:34,474 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:35,476 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:36,477 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:37,479 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:38,480 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:39,482 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:40,484 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:41,485 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:42,487 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:43,488 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:44,490 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:45,492 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:46,493 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:47,494 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:48,496 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:49,498 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:50,498 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:51,500 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:52,501 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:53,503 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:54,504 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:55,506 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:56,508 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:57,509 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:58,509 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:58:59,510 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:00,512 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:01,513 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:02,515 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:03,515 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:04,517 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:05,519 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:06,520 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:07,521 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:08,524 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:09,526 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:10,528 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:11,529 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:12,531 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:13,532 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:14,534 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:15,536 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:16,537 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:17,538 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:18,540 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:19,542 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:20,544 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:21,545 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:22,546 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:23,548 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:24,549 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:25,550 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:26,551 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:27,552 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:28,553 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:29,555 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:30,556 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:31,557 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:32,558 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:33,560 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:34,561 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:35,562 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:36,564 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:37,566 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:38,567 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:39,568 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:40,569 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:41,571 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:42,571 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:43,573 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:44,575 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:45,576 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:46,577 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:47,579 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:48,580 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:49,582 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:50,583 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:51,585 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:52,586 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:53,588 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:54,592 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:55,593 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:56,595 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:57,596 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:58,598 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 01:59:59,600 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:00,602 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:01,604 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:02,605 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:03,606 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:04,608 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:05,610 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:06,611 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:07,612 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:08,613 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:09,615 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:10,615 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:11,617 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:12,617 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:13,619 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:14,620 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:15,622 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:16,622 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:17,625 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:18,625 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:19,627 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:20,628 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:21,630 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:22,631 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:23,632 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:24,634 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:25,635 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:26,636 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:27,638 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:28,639 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:29,640 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:30,642 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:31,643 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:32,644 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:33,646 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:34,647 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:35,648 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:36,650 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:37,652 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:38,653 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:39,654 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:40,866 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:41,866 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:42,868 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:43,869 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:44,871 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:45,872 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:46,874 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:47,874 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:48,875 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:49,876 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:50,877 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:51,878 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:52,880 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:53,881 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:54,883 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:55,885 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:56,886 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:57,887 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:58,888 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:00:59,890 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:00,891 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:01,892 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:02,894 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:03,894 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:04,896 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:05,898 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:06,900 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:07,900 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:08,902 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:09,902 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:10,904 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:11,906 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:12,907 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:13,909 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:14,910 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:15,911 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:16,912 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:17,914 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:18,915 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:19,916 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:20,917 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:21,918 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:22,919 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:23,920 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:24,921 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:25,923 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:26,924 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:27,925 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:28,926 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:29,928 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:30,929 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:31,931 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:32,932 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:33,934 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:34,936 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:35,938 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:36,940 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:37,942 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:38,943 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:39,945 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:40,947 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:41,948 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:42,950 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:43,952 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:44,953 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:45,955 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:46,957 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:47,957 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:48,958 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:49,960 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:50,962 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:51,964 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:52,966 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:53,967 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:54,968 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:55,970 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:56,971 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:57,972 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:58,974 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:01:59,976 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:00,977 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:01,978 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:02,980 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:03,982 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:04,982 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:05,983 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:06,985 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:07,986 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:08,988 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:09,989 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:10,990 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:11,991 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:12,992 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:13,993 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:14,995 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:15,996 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:16,998 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:17,998 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:19,000 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:20,002 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:21,002 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:22,004 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:23,005 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:24,007 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:25,009 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:26,011 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:27,012 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:28,013 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:29,014 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:30,016 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:31,019 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:32,020 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:33,021 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:34,021 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:35,023 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:36,025 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:37,027 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:38,028 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:39,030 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:40,031 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:41,032 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:42,033 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:43,035 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:44,036 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:45,038 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:46,039 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:47,040 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:48,042 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:49,043 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:50,044 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:51,046 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:52,047 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:53,048 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:54,050 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:55,052 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:56,052 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:57,053 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:58,054 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:02:59,056 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:03:00,057 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:03:01,059 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:03:02,060 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 411 MB!)
+2021-04-19 02:03:03,061 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:04,063 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:05,064 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:06,066 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:07,067 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:08,068 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:09,070 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:10,071 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:11,073 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:12,074 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:13,076 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:14,077 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:15,078 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:16,080 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:17,081 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:18,083 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:19,084 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:20,086 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:21,087 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:22,088 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:23,089 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:24,091 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:25,092 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:26,094 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:27,096 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:28,097 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:29,099 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:30,100 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:31,101 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:32,102 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:33,104 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:34,105 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:35,106 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:36,108 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:37,109 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:38,110 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:39,112 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:40,113 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:41,115 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:42,116 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:43,117 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:44,118 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:45,119 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:46,121 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:47,122 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:48,124 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:49,125 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:50,127 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:51,128 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:52,129 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:53,130 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:54,132 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:55,133 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:56,134 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:57,136 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:58,137 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:03:59,138 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:00,140 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:01,142 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:02,143 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:03,144 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:04,145 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:05,147 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:06,148 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:07,150 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:08,151 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:09,152 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:10,154 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:11,156 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:12,157 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:13,158 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:14,159 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:15,161 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:16,164 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:17,166 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:18,167 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:19,169 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:20,170 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:21,172 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:22,173 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:23,174 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:24,176 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:25,178 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:26,180 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:27,181 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:28,183 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:29,184 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 403 MB!)
+2021-04-19 02:04:30,186 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 399 MB!)
+2021-04-19 02:04:31,188 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 398 MB!)
+2021-04-19 02:04:32,189 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 398 MB!)
+2021-04-19 02:04:33,190 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 398 MB!)
+2021-04-19 02:04:34,192 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 398 MB!)
+2021-04-19 02:04:35,193 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 398 MB!)
+2021-04-19 02:04:36,194 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 398 MB!)
+2021-04-19 02:04:37,196 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 396 MB!)
+2021-04-19 02:04:38,197 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 393 MB!)
+2021-04-19 02:04:39,198 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 390 MB!)
+2021-04-19 02:04:40,199 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 389 MB!)
+2021-04-19 02:04:41,200 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 388 MB!)
+2021-04-19 02:04:42,202 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 386 MB!)
+2021-04-19 02:04:43,204 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 386 MB!)
+2021-04-19 02:04:44,205 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 384 MB!)
+2021-04-19 02:04:45,207 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 384 MB!)
+2021-04-19 02:04:46,208 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 384 MB!)
+2021-04-19 02:04:47,210 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 384 MB!)
+2021-04-19 02:04:48,211 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 383 MB!)
+2021-04-19 02:04:49,212 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 379 MB!)
+2021-04-19 02:04:50,213 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 379 MB!)
+2021-04-19 02:04:51,215 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 379 MB!)
+2021-04-19 02:04:52,216 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 375 MB!)
+2021-04-19 02:04:53,218 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 373 MB!)
+2021-04-19 02:04:54,219 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 372 MB!)
+2021-04-19 02:04:55,220 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 372 MB!)
+2021-04-19 02:04:56,221 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 372 MB!)
+2021-04-19 02:04:57,222 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 372 MB!)
+2021-04-19 02:04:58,222 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 371 MB!)
+2021-04-19 02:04:59,224 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 371 MB!)
+2021-04-19 02:05:00,225 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 371 MB!)
+2021-04-19 02:05:01,226 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 371 MB!)
+2021-04-19 02:05:02,227 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 371 MB!)
+2021-04-19 02:05:03,229 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 371 MB!)
+2021-04-19 02:05:04,230 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 370 MB!)
+2021-04-19 02:05:05,230 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 365 MB!)
+2021-04-19 02:05:06,232 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 365 MB!)
+2021-04-19 02:05:07,234 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 365 MB!)
+2021-04-19 02:05:08,235 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 365 MB!)
+2021-04-19 02:05:09,236 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 360 MB!)
+2021-04-19 02:05:10,237 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:11,238 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:12,240 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:13,241 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:14,242 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:15,244 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:16,244 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:17,246 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:18,247 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:19,248 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:20,249 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:21,250 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:22,252 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:23,253 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:24,254 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:25,254 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:26,256 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:27,257 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:28,259 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:29,260 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:30,262 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:31,263 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:32,264 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:33,266 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:34,267 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:35,269 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:36,270 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:37,273 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:38,274 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:39,276 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:40,277 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 357 MB!)
+2021-04-19 02:05:41,278 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 356 MB!)
+2021-04-19 02:05:42,280 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 346 MB!)
+2021-04-19 02:05:43,282 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 346 MB!)
+2021-04-19 02:05:44,283 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 346 MB!)
+2021-04-19 02:05:45,411 [cuckoo.core.scheduler] INFO: Starting analysis of URL "http://google.com" (task #5, options "procmemdump=yes,route=none")
+2021-04-19 02:05:45,498 [cuckoo.core.scheduler] INFO: Task #5: acquired machine win-cuckoo (label=win-cuckoo)
+2021-04-19 02:05:45,519 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 16821 (interface=vboxnet0, host=192.168.56.101)
+2021-04-19 02:05:45,798 [cuckoo.core.scheduler] ERROR: Error starting Virtual Machine! VM: win-cuckoo, error: Trying to start an already started VM: win-cuckoo
+2021-04-19 02:06:31,477 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label win-cuckoo to path /opt/sapir/projects/cuckoo-proj-sapir/cuckoo/storage/analyses/5/memory.dmp
+2021-04-19 02:06:37,494 [cuckoo.processing.behavior] WARNING: Analysis results folder does not contain any behavior log files.
+2021-04-19 02:06:37,505 [cuckoo.processing.debug] ERROR: Error processing task #5: it appears that the Virtual Machine hasn't been able to contact back to the Cuckoo Host. There could be a few reasons for this, please refer to our documentation on the matter: https://cuckoo.sh/docs/faq/index.html#troubleshooting-vm-network-configuration
+2021-04-19 02:06:37,736 [cuckoo.core.scheduler] INFO: Task #5: reports generation completed
+2021-04-19 02:06:37,741 [cuckoo.core.scheduler] INFO: Task #5: analysis procedure completed
+2021-04-19 02:08:15,454 [cuckoo.core.scheduler] INFO: Starting analysis of URL "http://google.com" (task #6, options "procmemdump=yes,route=none")
+2021-04-19 02:08:15,536 [cuckoo.core.scheduler] INFO: Task #6: acquired machine win-cuckoo (label=win-cuckoo)
+2021-04-19 02:08:15,556 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 17164 (interface=vboxnet0, host=192.168.56.101)
+2021-04-19 02:08:21,890 [cuckoo.core.guest] INFO: Starting analysis #6 on guest (id=win-cuckoo, ip=192.168.56.101)
+2021-04-19 02:08:25,926 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=win-cuckoo, ip=192.168.56.101)
+2021-04-19 02:10:49,424 [cuckoo.core.resultserver] WARNING: Uploaded file length larger than upload_max_size, stopping upload.
+2021-04-19 02:10:50,804 [cuckoo.core.guest] INFO: win-cuckoo: analysis completed successfully
+2021-04-19 02:11:32,653 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label win-cuckoo to path /opt/sapir/projects/cuckoo-proj-sapir/cuckoo/storage/analyses/6/memory.dmp
+2021-04-19 02:11:39,853 [cuckoo.processing.behavior] WARNING: Analysis results folder does not contain any behavior log files.
+2021-04-19 02:11:46,305 [cuckoo.core.scheduler] INFO: Task #6: reports generation completed
+2021-04-19 02:11:46,313 [cuckoo.core.scheduler] INFO: Task #6: analysis procedure completed
+2021-04-19 11:23:04,045 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-19 11:23:04,871 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-19 11:23:04,877 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-19 13:39:37,778 [cuckoo] INFO: CTRL+C detected! Stopping.. This can take a few seconds
+2021-04-19 13:40:04,365 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-19 13:40:05,991 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-19 13:40:05,999 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-19 13:43:00,070 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-19 13:43:00,950 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-19 13:43:00,958 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-19 13:58:01,102 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-19 13:58:02,157 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-19 13:58:02,163 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-19 15:13:11,591 [cuckoo] INFO: CTRL+C detected! Stopping.. This can take a few seconds
+2021-04-19 15:13:14,623 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-19 15:13:15,455 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-19 15:13:15,464 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-19 16:18:08,989 [cuckoo] CRITICAL: [31mCuckooCriticalError: Unable to bind ResultServer on 192.168.56.1:2042 [Errno 99] Cannot assign requested address. This usually happens when you start Cuckoo without bringing up the virtual interface associated with the ResultServer IP address. Please refer to https://cuckoo.sh/docs/faq/#troubles-problem for more information.[0m
+2021-04-19 16:18:37,984 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-19 16:18:43,101 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-19 16:18:43,109 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-19 16:23:19,633 [cuckoo] INFO: CTRL+C detected! Stopping.. This can take a few seconds
+2021-04-20 00:14:11,359 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-20 00:14:12,424 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-20 00:14:12,441 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-20 00:14:17,090 [cuckoo] INFO: CTRL+C detected! Stopping.. This can take a few seconds
+2021-04-20 00:14:27,865 [cuckoo.core.scheduler] INFO: Using "virtualbox" as machine manager
+2021-04-20 00:14:28,807 [cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2021-04-20 00:14:28,816 [cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2021-04-20 00:17:10,437 [cuckoo.core.scheduler] INFO: Starting analysis of URL "http://google.com" (task #7, options "procmemdump=yes,route=none")
+2021-04-20 00:17:10,509 [cuckoo.core.scheduler] INFO: Task #7: acquired machine win-cuckoo (label=win-cuckoo)
+2021-04-20 00:17:10,530 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 7035 (interface=vboxnet0, host=192.168.56.101)
+2021-04-20 00:17:17,756 [cuckoo.core.guest] INFO: Starting analysis #7 on guest (id=win-cuckoo, ip=192.168.56.101)
+2021-04-20 00:17:21,791 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=win-cuckoo, ip=192.168.56.101)
+2021-04-20 00:20:22,882 [cuckoo.core.guest] INFO: win-cuckoo: end of analysis reached!
+2021-04-20 00:20:26,336 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 968 MB!)
+2021-04-20 00:20:27,338 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 762 MB!)
+2021-04-20 00:20:28,338 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 570 MB!)
+2021-04-20 00:20:29,340 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 429 MB!)
+2021-04-20 00:20:30,341 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 284 MB!)
+2021-04-20 00:20:31,342 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 136 MB!)
+2021-04-20 00:20:32,282 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label win-cuckoo to path /opt/sapir/projects/cuckoo-proj-sapir/cuckoo/storage/analyses/7/memory.dmp
+2021-04-20 00:20:32,344 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:20:32,361 [cuckoo.core.database] ERROR: Database error setting machine status: (sqlite3.OperationalError) database or disk is full
+[SQL: UPDATE machines SET status_changed_on=? WHERE machines.id = ?]
+[parameters: ('2021-04-20 00:20:32.360986', 1)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+Traceback (most recent call last):
+  File "/home/sapir/.local/lib/python2.7/site-packages/cuckoo/core/database.py", line 958, in set_machine_status
+    session.commit()
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1026, in commit
+    self.transaction.commit()
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 493, in commit
+    self._prepare_impl()
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 472, in _prepare_impl
+    self.session.flush()
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 2451, in flush
+    self._flush(objects)
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 2589, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 2549, in _flush
+    flush_context.execute()
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/orm/unitofwork.py", line 589, in execute
+    uow,
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/orm/persistence.py", line 236, in save_obj
+    update,
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/orm/persistence.py", line 978, in _emit_update_statements
+    statement, multiparams
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 988, in execute
+    return meth(self, multiparams, params)
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 287, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1107, in _execute_clauseelement
+    distilled_params,
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 383, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/sapir/.local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 552, in do_execute
+    cursor.execute(statement, parameters)
+OperationalError: (sqlite3.OperationalError) database or disk is full
+[SQL: UPDATE machines SET status_changed_on=? WHERE machines.id = ?]
+[parameters: ('2021-04-20 00:20:32.360986', 1)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2021-04-20 00:20:32,368 [cuckoo.core.scheduler] ERROR: Failure in AnalysisManager.run
+Traceback (most recent call last):
+  File "/home/sapir/.local/lib/python2.7/site-packages/cuckoo/core/scheduler.py", line 2021-04-20 00:20:59,465 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:00,466 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:01,467 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:02,468 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:03,469 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:04,471 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:05,472 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:06,474 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:07,475 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:08,477 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:09,479 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:10,481 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:11,483 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:12,485 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:13,486 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:14,488 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:15,490 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:16,492 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:17,492 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:18,494 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:19,496 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:20,497 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:21,501 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:22,502 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:23,503 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:24,504 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:25,505 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:26,509 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:27,511 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:28,512 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:29,514 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:30,516 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:31,517 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:32,518 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:33,520 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:34,521 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:35,522 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:36,526 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
+2021-04-20 00:21:37,526 [cuckoo.core.scheduler] ERROR: Not enough free disk space! (Only 0 MB!)
